@@ -1,0 +1,30 @@
+{
+  "name": "theme-xp-javascript-theme",
+  "version": "1.2.1",
+  "description": "economize seus olhos",
+  "scripts": {
+    "package":"vsce package --no-yarn",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "publisher": "Theme-xp-javascript-dark",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes":[
+      {
+        "label": "theme-xp-javascript-theme",
+        "id": "theme-xp-javascript-theme",
+        "uiTheme": "vs-dark",
+        "path": "./javascript-xp-theme-color-theme.json"
+      }
+    ]
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
